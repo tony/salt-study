@@ -1,32 +1,39 @@
 include:
-  - devel.git
-  - tony
+  {% if pillar['vcs_pkg_sls'] is defined %}
+  {% for vcs_pkg in pillar.get('vcs_pkg_sls', {}) %}
+  - {{ vcs_pkg }}
+  {% endfor %}
+  {% endif %}
+  {% if pillar['study_username'] is defined %}
+  - {{ pillar['study_username'] }}
+  {% endif %}
 
-/home/{{ pillar['username'] }}/study/node:
+
+{{ pillar['study_dir'] }}node:
   file.directory:
-    - user: {{ pillar['username'] }}
-    - group: {{ pillar['username'] }}
+    - user: {{ pillar['study_username'] }}
+    - group: {{ pillar['study_username'] }}
     - mode: 775
     - makedirs: True
     - require:
-      - user: {{ pillar['username'] }}
+      - user: {{ pillar['study_username'] }}
 
 https://github.com/isaacs/npm.git:
   git.latest:
-    - target: /home/{{ pillar['username'] }}/study/node/npm
-    - runas: tony
+    - target: {{ pillar['study_dir'] }}node/npm
+    - runas: {{ pillar['study_username'] }}
     - submodules: True
     - require:
-      - file: /home/{{ pillar['username'] }}/study/node
+      - file: {{ pillar['study_dir'] }}node
       - pkg: git
 
-{% for name, repo in pillar['study']['node']['git'].iteritems() %}
+{% for name, repo in pillar['study_repos']['node']['git'].iteritems() %}
 {{repo}}:
   git.latest:
-    - target: /home/{{ pillar['username'] }}/study/node/{{name}}
-    - runas: tony
+    - target: {{ pillar['study_dir'] }}node/{{name}}
+    - runas: {{ pillar['study_username'] }}
     - submodules: True
     - require:
-      - file: /home/{{ pillar['username'] }}/study/node
+      - file: {{ pillar['study_dir'] }}node
       - pkg: git
 {% endfor %}

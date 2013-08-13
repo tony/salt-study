@@ -1,8 +1,8 @@
-/home/{{ pillar['username'] }}/study/:
+{{ pillar['study_dir'] }}:
   file.directory:
-    - user: {{ pillar['username'] }}
-    - group: {{ pillar['username'] }}
+    - user: {{ pillar['study_username'] }}
+    - group: {{ pillar['study_username'] }}
     - mode: 775
     - makedirs: True
     - require:
-      - user: {{ pillar['username'] }}
+      - user: {{ pillar['study_username'] }}

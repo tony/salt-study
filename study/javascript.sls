@@ -1,25 +1,30 @@
 include:
-  - devel.git
-  - devel.mercurial
-  - tony
+  {% if pillar['vcs_pkg_sls'] is defined %}
+  {% for vcs_pkg in pillar.get('vcs_pkg_sls', {}) %}
+  - {{ vcs_pkg }}
+  {% endfor %}
+  {% endif %}
+  {% if pillar['study_username'] is defined %}
+  - {{ pillar['study_username'] }}
+  {% endif %}
 
 
-/home/{{ pillar['username'] }}/study/javascript:
+{{ pillar['study_dir'] }}javascript:
   file.directory:
-    - user: {{ pillar['username'] }}
-    - group: {{ pillar['username'] }}
+    - user: {{ pillar['study_username'] }}
+    - group: {{ pillar['study_username'] }}
     - mode: 775
     - makedirs: True
     - require:
-      - user: {{ pillar['username'] }}
+      - user: {{ pillar['study_username'] }}
 
-{% for name, repo in pillar['study']['javascript']['git'].iteritems() %}
+{% for name, repo in pillar['study_repos']['javascript']['git'].iteritems() %}
 {{repo}}:
   git.latest:
-    - target: /home/{{ pillar['username'] }}/study/javascript/{{name}}
-    - runas: tony
+    - target: {{ pillar['study_dir'] }}javascript/{{name}}
+    - runas: {{ pillar['study_username'] }}
     - submodules: True
     - require:
-      - file: /home/{{ pillar['username'] }}/study/javascript
+      - file: {{ pillar['study_dir'] }}javascript
       - pkg: git
 {% endfor %}
