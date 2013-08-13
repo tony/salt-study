@@ -1,19 +1,13 @@
-username: tony
-fullname: Tony
+study_dir: '/home/tony/study/'
+study_username: 'tony'
 
-{%- if grains['os'] == 'MacOS' %}
-etc_dir: /opt/local/etc/
-var_dir: /opt/local/var/
-logs_dir: /opt/local/var/log/
-{%- else %}
-etc_dir: /etc/
-var_dir: /var/
-logs_dir: /var/log/
-{%- endif %}
+vcs_pkg_sls:
+  - 'devel.git'
+  - 'devel.hg'
 
-www_dir: /srv/www/
+python_sls: lang.python.python-libs
 
-study: 
+study_repos: 
   c:
     git: {
       weechat: 'git://git.sv.gnu.org/weechat.git',
@@ -200,4 +194,3 @@ study:
       sphinx-contrib: 'https://bitbucket.org/birkenfeld/sphinx-contrib',
     }
   }
-
