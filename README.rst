@@ -47,14 +47,19 @@ Copy ``pillar/study_repos.sls.example`` to ``pillar/study_repos.sls``.
 Config variables
 ````````````````
 
-* `study_username` - OS username, used for config (and group) file ownership
-  of projects
-* `study_dir` - the directory with the study repos will be cloned to. I use
-`/home/tony/study/`. Remember trailing slash.
-* `vcs_pkg_sls` - list of vcs sls packages to include as dependencies
-* `python_sls` - name of python sls package to include if you have
-  dependencies for python / virtualenv / virtualenvwrapper.
-* `study repos`: categorized by subject -> vcs -> { projectname: 'repo url' }
+================== =============
+Variable           Use
+================== =============
+**study_username** User and Group for file ownership
+------------------ -------------
+**study_dir**      The directory with the study repos will be cloned to. I use `/home/tony/study/`. Remember trailing slash.
+------------------ -------------
+**vcs_pkg_sls**    List of vcs sls packages to include as dependencies
+------------------ -------------
+**python_sls**     Name of python sls package to include if you have dependencies for python / virtualenv / virtualenvwrapper.
+------------------ -------------
+**study repos**    Categorized by subject -> vcs -> { projectname: 'repo url' }
+================== =============
 
 
 To do
