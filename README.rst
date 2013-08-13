@@ -40,7 +40,7 @@ Edit master file `/etc/salt/master` and / or `/etc/salt/minion` file:
             - .. your current file_roots
             - /srv/salt/tony-study
 
-Then, add `study_repos` to your higher `pillar.top.sls` file.
+Add `study_repos` to your highest pillar `top.sls` file.
 
 Copy ``pillar/study_repos.sls.example`` to ``pillar/study_repos.sls``.
 
@@ -65,7 +65,7 @@ Variable           Use
 To do
 -----
 
-  * Convert the rest of the sample subjects to the pillar data format (`c.sls`
-    and `c++.sls` isn't yet.
-  * Allow the other pillars to have package dependencies from pillar config,
-    `study_sls_pkg` for all study sls subjects.
+- Convert the rest of the sample subjects to the pillar data format (`c.sls`
+  and `c++.sls` isn't yet.
+- Allow the other pillars to have package dependencies from pillar config,
+  `study_sls_pkg` for all study sls subjects.
