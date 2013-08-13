@@ -26,7 +26,7 @@ Setup
    git clone https://github.com/tony/salt-study.git /srv/salt/tony-study
 
 
-``/etc/salt/master``:
+Edit master file `/etc/salt/master` and / or `/etc/salt/minion` file:
 
 .. code:: yaml
 
