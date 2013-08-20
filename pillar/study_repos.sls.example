@@ -19,9 +19,6 @@ study_repos:
     }
   node:
     git: {
-      nodejs-express-mongoose-demo: 'https://github.com/madhums/nodejs-express-mongoose-demo',
-      nipster: 'https://github.com/eirikb/nipster.git',
-      node-rachet: 'git://github.com/ratchetio/node_ratchet.git',
       async: 'http://github.com/caolan/async.git',
       request: 'git://github.com/mikeal/request.git',
       express: 'https://github.com/visionmedia/express.git',
@@ -101,8 +98,6 @@ study_repos:
       jasmine-node: 'https://github.com/mhevery/jasmine-node.git',
       node-querystring: 'https://github.com/visionmedia/node-querystring.git',
       highlight.js: 'https://github.com/isagalaev/highlight.js.git',
-      thrift: 'https://github.com/apache/thrift.git',
-      thrift-python-node-example: 'https://github.com/likwid/thrift-python-node-example.git'
     }
   javascript:
     git: {
@@ -186,6 +181,9 @@ study_repos:
       objbrowser: 'https://github.com/titusjan/objbrowser',
       reddit: 'https://github.com/reddit/reddit.git',
       pythagora: 'https://github.com/tarmack/Pythagora.git',
+      youtube-dl: 'https://github.com/rg3/youtube-dl.git',
+      introduction_to_sqlalchemy: 'https://bitbucket.org/zzzeek/pycon2013_student_package.git',
+      twisted: 'https://github.com/twisted/twisted.git'
     },
     hg: {
       bpython: 'https://bitbucket.org/bobf/bpython/',
