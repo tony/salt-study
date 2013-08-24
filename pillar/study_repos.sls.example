@@ -14,7 +14,10 @@ study_repos:
       weechat: 'git://git.sv.gnu.org/weechat.git',
       retroarch: 'https://github.com/Themaister/RetroArch.git',
       linux: 'https://github.com/torvalds/linux.git',
-      freebsd: 'https://github.com/freebsd/freebsd.git'
+      freebsd: 'https://github.com/freebsd/freebsd.git',
+      ncmpc: 'git://git.musicpd.org/master/ncmpc.git',
+      tmux: 'git://git.code.sf.net/p/tmux/tmux-code',
+      git: 'https://github.com/git/git.git',
     }
   c++:
     git: {
@@ -22,7 +25,7 @@ study_repos:
       vimpc: 'https://github.com/boysetsfrog/vimpc',
       mpd: 'git://git.musicpd.org/master/mpd.git',
       libmpd: 'git://git.musicpd.org/master/libmpd.git',
-      ncmpcpp: 'git://git.musicpd.org/mirror/ncmpcpp.git'
+      ncmpcpp: 'git://git.musicpd.org/mirror/ncmpcpp.git',
       libmpdclient: 'git://git.musicpd.org/master/libmpdclient.git',
       node: 'https://github.com/joyent/node.git',
       libzmp: 'https://github.com/zeromq/libzmq.git',
