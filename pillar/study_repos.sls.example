@@ -10,12 +10,23 @@ python_sls: lang.python.python-libs
 study_repos: 
   c:
     git: {
+      awesome: 'git://git.naquadah.org/awesome.git',
       weechat: 'git://git.sv.gnu.org/weechat.git',
-      retroarch: 'https://github.com/Themaister/RetroArch.git'
+      retroarch: 'https://github.com/Themaister/RetroArch.git',
+      linux: 'https://github.com/torvalds/linux.git',
+      freebsd: 'https://github.com/freebsd/freebsd.git'
     }
   c++:
     git: {
-      retroarch-phoenix: 'https://github.com/Themaister/RetroArch-Phoenix.git'
+      retroarch-phoenix: 'https://github.com/Themaister/RetroArch-Phoenix.git',
+      vimpc: 'https://github.com/boysetsfrog/vimpc',
+      mpd: 'git://git.musicpd.org/master/mpd.git',
+      libmpd: 'git://git.musicpd.org/master/libmpd.git',
+      ncmpcpp: 'git://git.musicpd.org/mirror/ncmpcpp.git'
+      libmpdclient: 'git://git.musicpd.org/master/libmpdclient.git',
+      node: 'https://github.com/joyent/node.git',
+      libzmp: 'https://github.com/zeromq/libzmq.git',
+
     }
   node:
     git: {
