@@ -17,3 +17,19 @@ include:
     - makedirs: True
     - require:
       - user: {{ pillar['study_username'] }}
+
+
+{% for vcs in pillar['study_repos']['c'].keys() %}
+{% for name, repo in pillar['study_repos']['c'][vcs].iteritems() %}
+
+c_study_{{ name }}:
+  {{vcs}}.latest:
+    - name: {{repo}}
+    - target: {{ pillar['study_dir'] }}c/{{name}}
+    - runas: {{ pillar['study_username'] }}
+    - submodules: True
+    - require:
+      - file: {{ pillar['study_dir'] }}c
+      - pkg: {{vcs}}
+{% endfor %}
+{% endfor %}
