@@ -69,3 +69,4 @@ To do
   and `c++.sls` isn't yet.
 - Allow the other pillars to have package dependencies from pillar config,
   `study_sls_pkg` for all study sls subjects.
+- `hg` to `require` a pkg `mercurial`.
