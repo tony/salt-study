@@ -20,7 +20,8 @@ study_repos:
       git: 'https://github.com/git/git.git',
     }
     hg: {
-      cpython: 'http://hg.python.org/cpython/'
+      cpython: 'http://hg.python.org/cpython/',
+      vim: 'https://vim.googlecode.com/hg/'
     }
   c++:
     git: {
