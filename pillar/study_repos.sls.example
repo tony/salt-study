@@ -32,6 +32,7 @@ study_repos:
       libmpdclient: 'git://git.musicpd.org/master/libmpdclient.git',
       node: 'https://github.com/joyent/node.git',
       libzmp: 'https://github.com/zeromq/libzmq.git',
+      doubanfm-qt: 'https://github.com/zonyitoo/doubanfm-qt.git'
 
     }
   node:
