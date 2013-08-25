@@ -208,7 +208,9 @@ study_repos:
 
       w3lib: 'https://github.com/scrapy/w3lib',
       scrapy: 'https://github.com/scrapy/scrapy.git',
-      scrapely: 'https://github.com/scrapy/scrapely.git'
+      scrapely: 'https://github.com/scrapy/scrapely.git',
+
+      calibre: 'git://github.com/kovidgoyal/calibre.git'
 
     },
     hg: {
