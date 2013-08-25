@@ -19,6 +19,9 @@ study_repos:
       tmux: 'git://git.code.sf.net/p/tmux/tmux-code',
       git: 'https://github.com/git/git.git',
     }
+    hg: {
+      cpython: 'http://hg.python.org/cpython/'
+    }
   c++:
     git: {
       retroarch-phoenix: 'https://github.com/Themaister/RetroArch-Phoenix.git',
@@ -203,11 +206,15 @@ study_repos:
       hackthebox: 'https://github.com/moloch--/RootTheBox.git',
       mediagoblin: 'git://gitorious.org/mediagoblin/mediagoblin.git',
 
+      w3lib: 'https://github.com/scrapy/w3lib',
+      scrapy: 'https://github.com/scrapy/scrapy.git',
+      scrapely: 'https://github.com/scrapy/scrapely.git'
+
     },
     hg: {
       bpython: 'https://bitbucket.org/bobf/bpython/',
-      sphinx: 'https://bitbucket.org/birkenfeld/sphinx',
       urwid: 'https://excess.org/hg/urwid/',
+      sphinx: 'https://bitbucket.org/birkenfeld/sphinx',
       sphinx-contrib: 'https://bitbucket.org/birkenfeld/sphinx-contrib',
     }
   }
