@@ -183,6 +183,9 @@ study_repos:
       soundcloud-cli: 'https://github.com/0xPr0xy/soundcloud-cli.git',
       pyradio: 'https://github.com/coderholic/pyradio.git',
 
+      sh: 'https://github.com/amoffat/sh.git',
+      envoy: 'https://github.com/kennethreitz/envoy.git',
+
       glances: 'https://github.com/nicolargo/glances.git',
       powerline: 'https://github.com/Lokaltog/powerline.git',
       jieba: 'https://github.com/fxsjy/jieba.git',
