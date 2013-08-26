@@ -179,8 +179,9 @@ study_repos:
       pystache: 'https://github.com/defunkt/pystache.git',
       pandas: 'https://github.com/pydata/pandas',
       ncmpy: 'https://github.com/cykerway/ncmpy.git',
+
       soundcloud-cli: 'https://github.com/0xPr0xy/soundcloud-cli.git',
-      xunlei-lixian: 'https://github.com/iambus/xunlei-lixian.git',
+      pyradio: 'https://github.com/coderholic/pyradio.git'
 
       glances: 'https://github.com/nicolargo/glances.git',
       powerline: 'https://github.com/Lokaltog/powerline.git',
@@ -193,7 +194,6 @@ study_repos:
       beets: 'https://github.com/sampsyo/beets.git',
       magicmethods: 'https://github.com/RafeKettler/magicmethods.git',
       ckan: 'https://github.com/okfn/ckan.git',
-      youku-lixian: 'https://github.com/iambus/youku-lixian.git',
       gateone: 'https://github.com/liftoff/GateOne.git',
       glue: 'https://github.com/jorgebastida/glue.git',
       objbrowser: 'https://github.com/titusjan/objbrowser',
