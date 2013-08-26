@@ -181,7 +181,7 @@ study_repos:
       ncmpy: 'https://github.com/cykerway/ncmpy.git',
 
       soundcloud-cli: 'https://github.com/0xPr0xy/soundcloud-cli.git',
-      pyradio: 'https://github.com/coderholic/pyradio.git'
+      pyradio: 'https://github.com/coderholic/pyradio.git',
 
       glances: 'https://github.com/nicolargo/glances.git',
       powerline: 'https://github.com/Lokaltog/powerline.git',
