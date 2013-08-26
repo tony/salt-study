@@ -3,7 +3,7 @@ study_username: 'tony'
 
 vcs_pkg_sls:
   - 'devel.git'
-  - 'devel.hg'
+  - 'devel.mercurial'
 
 python_sls: lang.python.python-libs
 
@@ -18,14 +18,15 @@ study_repos:
       ncmpc: 'git://git.musicpd.org/master/ncmpc.git',
       tmux: 'git://git.code.sf.net/p/tmux/tmux-code',
       git: 'https://github.com/git/git.git',
+      postgres: 'https://github.com/postgres/postgres.git',
     }
     hg: {
       cpython: 'http://hg.python.org/cpython/',
-      vim: 'https://vim.googlecode.com/hg/'
+      vim: 'https://vim.googlecode.com/hg/',
+      nginx: 'http://hg.nginx.org/nginx'
     }
   c++:
     git: {
-      retroarch-phoenix: 'https://github.com/Themaister/RetroArch-Phoenix.git',
       vimpc: 'https://github.com/boysetsfrog/vimpc',
       mpd: 'git://git.musicpd.org/master/mpd.git',
       libmpd: 'git://git.musicpd.org/master/libmpd.git',
@@ -33,8 +34,8 @@ study_repos:
       libmpdclient: 'git://git.musicpd.org/master/libmpdclient.git',
       node: 'https://github.com/joyent/node.git',
       libzmp: 'https://github.com/zeromq/libzmq.git',
-      doubanfm-qt: 'https://github.com/zonyitoo/doubanfm-qt.git'
-
+      doubanfm-qt: 'https://github.com/zonyitoo/doubanfm-qt.git',
+      retroarch-phoenix: 'https://github.com/Themaister/RetroArch-Phoenix.git',
     }
   node:
     git: {
