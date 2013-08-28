@@ -164,21 +164,25 @@ study_repos:
       wtforms: 'https://github.com/Khan/wtforms.git',
       botocore: 'https://github.com/boto/botocore.git',
       libcloud: 'https://github.com/apache/libcloud.git',
-      python_koans: 'https://github.com/gregmalcolm/python_koans.git',
+
       lxml: 'https://github.com/lxml/lxml.git',
-      python-guide: 'https://github.com/kennethreitz/python-guide.git',
+
       httpbin: 'https://github.com/kennethreitz/httpbin.git',
       envoy: 'https://github.com/kennethreitz/envoy.git',
       legit: 'https://github.com/kennethreitz/legit.git',
       tablib: 'https://github.com/kennethreitz/tablib.git',
       grequests: 'https://github.com/kennethreitz/grequests.git',
+
       kr-sphinx-themes: 'https://github.com/kennethreitz/kr-sphinx-themes.git',
+
       gist-api: 'https://github.com/kennethreitz/gistapi.py.git',
-      gevent: 'https://github.com/surfly/gevent.git',
-      tornado: 'https://github.com/facebook/tornado.git',
+
       pystache: 'https://github.com/defunkt/pystache.git',
       pandas: 'https://github.com/pydata/pandas',
       ncmpy: 'https://github.com/cykerway/ncmpy.git',
+
+      gevent: 'https://github.com/surfly/gevent.git',
+      tornado: 'https://github.com/facebook/tornado.git',
 
       soundcloud-cli: 'https://github.com/0xPr0xy/soundcloud-cli.git',
       pyradio: 'https://github.com/coderholic/pyradio.git',
@@ -196,21 +200,27 @@ study_repos:
       buildbot: 'https://github.com/buildbot/buildbot.git',
       beets: 'https://github.com/sampsyo/beets.git',
       magicmethods: 'https://github.com/RafeKettler/magicmethods.git',
-      ckan: 'https://github.com/okfn/ckan.git',
+
       gateone: 'https://github.com/liftoff/GateOne.git',
       glue: 'https://github.com/jorgebastida/glue.git',
       objbrowser: 'https://github.com/titusjan/objbrowser',
-      reddit: 'https://github.com/reddit/reddit.git',
+
       pythagora: 'https://github.com/tarmack/Pythagora.git',
       youtube-dl: 'https://github.com/rg3/youtube-dl.git',
       twisted: 'https://github.com/twisted/twisted.git',
+
+      ckan: 'https://github.com/okfn/ckan.git',
+      hackthebox: 'https://github.com/moloch--/RootTheBox.git',
+      mediagoblin: 'git://gitorious.org/mediagoblin/mediagoblin.git',
+      ckan: 'https://github.com/okfn/ckan.git',
+      reddit: 'https://github.com/reddit/reddit.git',
+
+      python_koans: 'https://github.com/gregmalcolm/python_koans.git',
+      python-guide: 'https://github.com/kennethreitz/python-guide.git',
       introduction_to_sqlalchemy: 'https://bitbucket.org/zzzeek/pycon2013_student_package.git',
       probablistic-programming-and-beyesian-methods: 'https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers.git',
       python-patterns: 'https://github.com/faif/python-patterns.git',
       learn-pandas: 'https://bitbucket.org/hrojas/learn-pandas.git',
-      ckan: 'https://github.com/okfn/ckan.git',
-      hackthebox: 'https://github.com/moloch--/RootTheBox.git',
-      mediagoblin: 'git://gitorious.org/mediagoblin/mediagoblin.git',
 
       w3lib: 'https://github.com/scrapy/w3lib',
       scrapy: 'https://github.com/scrapy/scrapy.git',
