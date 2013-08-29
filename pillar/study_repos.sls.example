@@ -36,6 +36,8 @@ study_repos:
       libzmp: 'https://github.com/zeromq/libzmq.git',
       doubanfm-qt: 'https://github.com/zonyitoo/doubanfm-qt.git',
       retroarch-phoenix: 'https://github.com/Themaister/RetroArch-Phoenix.git',
+      clementine: 'https://code.google.com/p/clementine-player/',
+      amarok: 'git://anongit.kde.org/amarok.git',
     }
   node:
     git: {
