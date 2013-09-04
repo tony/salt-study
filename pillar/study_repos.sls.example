@@ -19,6 +19,8 @@ study_repos:
       tmux: 'git://git.code.sf.net/p/tmux/tmux-code',
       git: 'https://github.com/git/git.git',
       postgres: 'https://github.com/postgres/postgres.git',
+      sandy: 'http://git.suckless.org/sandy',
+      understate: 'https://github.com/L3V3L9/understate.git'
     }
     hg: {
       cpython: 'http://hg.python.org/cpython/',
@@ -228,7 +230,15 @@ study_repos:
       scrapy: 'https://github.com/scrapy/scrapy.git',
       scrapely: 'https://github.com/scrapy/scrapely.git',
 
-      calibre: 'git://github.com/kovidgoyal/calibre.git'
+      calibre: 'git://github.com/kovidgoyal/calibre.git',
+
+      kaptan: 'https://github.com/emre/kaptan.git',
+      aws-cli: 'https://github.com/aws/aws-cli.git',
+
+      pygments: 'http://bitbucket.org/birkenfeld/pygments-main',
+      youcompleteme: 'https://github.com/Valloric/YouCompleteMe.git',
+
+      ranger: 'git://git.savannah.nongnu.org/ranger.git',
 
     },
     hg: {
