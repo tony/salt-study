@@ -240,6 +240,9 @@ study_repos:
 
       ranger: 'git://git.savannah.nongnu.org/ranger.git',
 
+      rftd: 'https://github.com/rtfd/readthedocs.org.git',
+      django: 'https://github.com/django/django.git',
+
     },
     hg: {
       bpython: 'https://bitbucket.org/bobf/bpython/',
