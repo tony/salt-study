@@ -175,6 +175,7 @@ study_repos:
       envoy: 'https://github.com/kennethreitz/envoy.git',
       legit: 'https://github.com/kennethreitz/legit.git',
       tablib: 'https://github.com/kennethreitz/tablib.git',
+      requests: 'https://github.com/kennethreitz/requests.git',
       grequests: 'https://github.com/kennethreitz/grequests.git',
 
       kr-sphinx-themes: 'https://github.com/kennethreitz/kr-sphinx-themes.git',
