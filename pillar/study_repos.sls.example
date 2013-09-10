@@ -146,6 +146,7 @@ study_repos:
     }
   python: {
     git: {
+      norman: 'https://bitbucket.org/aquavitae/norman/src',
       pip: 'git://github.com/pypa/pip.git',
       ipdb: 'http://github.com/gotcha/ipdb.git',
       virtualenv: 'https://github.com/pypa/virtualenv.git',
