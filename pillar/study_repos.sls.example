@@ -251,5 +251,6 @@ study_repos:
       urwid: 'https://excess.org/hg/urwid/',
       sphinx: 'https://bitbucket.org/birkenfeld/sphinx',
       sphinx-contrib: 'https://bitbucket.org/birkenfeld/sphinx-contrib',
+      pexpect-u: 'https://bitbucket.org/takluyver/pexpect',
     }
   }
