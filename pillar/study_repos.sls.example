@@ -146,7 +146,6 @@ study_repos:
     }
   python: {
     git: {
-      norman: 'https://bitbucket.org/aquavitae/norman/src',
       pip: 'git://github.com/pypa/pip.git',
       ipdb: 'http://github.com/gotcha/ipdb.git',
       virtualenv: 'https://github.com/pypa/virtualenv.git',
@@ -237,7 +236,6 @@ study_repos:
       kaptan: 'https://github.com/emre/kaptan.git',
       aws-cli: 'https://github.com/aws/aws-cli.git',
 
-      pygments: 'http://bitbucket.org/birkenfeld/pygments-main',
       youcompleteme: 'https://github.com/Valloric/YouCompleteMe.git',
 
       ranger: 'git://git.savannah.nongnu.org/ranger.git',
@@ -247,10 +245,13 @@ study_repos:
 
     },
     hg: {
+      norman: 'https://bitbucket.org/aquavitae/norman/src',
       bpython: 'https://bitbucket.org/bobf/bpython/',
       urwid: 'https://excess.org/hg/urwid/',
       sphinx: 'https://bitbucket.org/birkenfeld/sphinx',
       sphinx-contrib: 'https://bitbucket.org/birkenfeld/sphinx-contrib',
       pexpect-u: 'https://bitbucket.org/takluyver/pexpect',
+      pygments: 'http://bitbucket.org/birkenfeld/pygments-main',
+
     }
   }
