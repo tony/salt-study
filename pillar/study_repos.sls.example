@@ -222,7 +222,7 @@ study_repos:
 
       python_koans: 'https://github.com/gregmalcolm/python_koans.git',
       python-guide: 'https://github.com/kennethreitz/python-guide.git',
-      introduction_to_sqlalchemy: 'https://bitbucket.org/zzzeek/pycon2013_student_package.git',
+      #introduction_to_sqlalchemy: 'https://bitbucket.org/zzzeek/pycon2013_student_package.git',
       probablistic-programming-and-beyesian-methods: 'https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers.git',
       python-patterns: 'https://github.com/faif/python-patterns.git',
       learn-pandas: 'https://bitbucket.org/hrojas/learn-pandas.git',
